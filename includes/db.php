@@ -1,9 +1,8 @@
 <?php
-// includes/db.php
-$DB_HOST = 'localhost';
-$DB_USER = 'root';
-$DB_PASS = ''; // XAMPP default
-$DB_NAME = 'digital_wallet';
+$DB_HOST = 'sql109.infinityfree.com';
+$DB_USER = 'if0_39893542';
+$DB_PASS = 'ilovepomerian'; 
+$DB_NAME = 'if0_39893542_digital_wallet';
 
 $conn = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 if ($conn->connect_error) {
